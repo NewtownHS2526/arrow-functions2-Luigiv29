@@ -6,14 +6,14 @@ function greet() {
     return "Hello, World!";
 }
 // Convert to arrow function:
-
+const greet = () => "Hello, World";
 
 // Problem 2
 function sayGoodbye() {
     console.log("Goodbye!");
 }
-// Convert to arrow function:
-
+// Convert to arrow functi`on:
+const sayGoodbye = () => "Goodbye!"
 
 // Problem 3
 function getCurrentYear() {
@@ -35,19 +35,22 @@ function getPi() {
     return 3.14159;
 }
 // Convert to arrow function:
-
+const getPi = () => 3.14159; 
 
 // Problem 6
 function showAlert() {
     alert("This is an alert!");
 }
-// Convert to arrow function:
+const alert = () => "This is an alert"
+// Convert to arrow function                                                              
+
 
 
 // Problem 7
 function getRandomNumber() {
     return Math.random();
 }
+const getRandomNumber = () => Math.random();
 // Convert to arrow function:
 
 
@@ -56,7 +59,7 @@ function displayDate() {
     console.log(new Date());
 }
 // Convert to arrow function:
-
+const displayDate = () =>
 
 // Problem 9
 function getTrue() {
